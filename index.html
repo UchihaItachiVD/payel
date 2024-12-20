@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS styles for the falling hearts effect */
+    #heart-container {
+      position: relative;
+      width: 100%;
+      height: 800px; /* Adjust the height as per your preference */
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      top: -50px;
+      font-size: 24px;
+      color: red; /* Adjust the color as per your preference */
+      animation: fall 3s ease-in infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(500px); /* Adjust the height as per your preference */
+      }
+    }
+  </style>
+  <title>Support and Care</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="special.js" defer></script>
+  <!-- <script src="specialeffects.js" defer></script> -->
+</head>
+<body>
+  <header>
+    <h1>Support and Care for You PAYEL</h1>
+  </header>
+
+  
+  </section>
+  <section id="resources">
+    <!-- <audio id="backgroundMusic" src="audio.mp3" autoplay loop></audio> -->
+
+    <audio id="backgroundMusic" src="audio.mp3" loop></audio>
+
+    <button id="playButton">Play Music</button> <span>click this button before starting</span>
+  
+    
+    <script>
+      const backgroundMusic = document.getElementById("backgroundMusic");
+      const playButton = document.getElementById("playButton");
+  
+      playButton.addEventListener("click", function() {
+        if (backgroundMusic.paused) {
+          backgroundMusic.play();
+          playButton.textContent = "Pause Music";
+        } else {
+          backgroundMusic.pause();
+          playButton.textContent = "Play Music";
+        }
+      });
+    </script>
+  
+   </section>
+
+  <section style="color: rgb(255, 0, 0);" id="comfort">
+    <h2>Message for you</h2>
+    <p id="comforting-message"></p>
+  </section>
+  
+  <button id="color-button"> Click To Change Background Color</button>
+
+
+  <section id="comfort-tips">
+    <h2>Comfort Tips</h2>
+    <ul>
+      <li>Take necessary rest and take breaks when needed.</li>
+      <li>Use heating pad or hot water bottle to relieve cramps.</li>
+      <li>Prepare warm beverages like herbal tea or hot chocolate.</li>
+      <li>Stay hydrated by drinking plenty of water.</li>
+      <li>Wear comfortable clothing and using soft, cozy blankets.</li>
+      <li>Do gentle exercises or stretches to help alleviate discomfort.</li>
+      <li>Don't worry too much, dear friend.</li>
+    </ul>
+  </section>
+  
+
+  <section id="personalized-content">
+    <table>
+      <tr>
+        <td><img src="img.png" alt="her image"></td>
+        <td><img src="baby.jpg" alt=" image"></td>
+      </tr>
+    </table>
+    
+    <p>Remember this day?</p>
+  </section>
+
+  
+<style>
+    /* CSS styles for the falling hearts effect */
+    #heart-container {
+      position: relative;
+      width: 100%;
+      height: 200px; /* Adjust the height as per your preference */
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      top: -50px;
+      font-size: 24px;
+      color: red; /* Adjust the color as per your preference */
+      animation: fall 3s ease-in infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(200px); /* Adjust the height as per your preference */
+      }
+    }
+  </style>
+  <script src="specialeffects.js" defer></script>
+
+  <section>
+    <button style="color: red;"><a href="hbd1.html">Click Here</a></button>
+  </section>
+  <footer>
+    <p>© 2024 for PAYEL SINGHA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
